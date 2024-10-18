@@ -1,0 +1,46 @@
+{
+  "name": "asmi",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@cashfreepayments/cashfree-js": "^1.0.5",
+    "@emailjs/browser": "^4.4.1",
+    "@next/third-parties": "^14.2.13",
+    "@react-oauth/google": "^0.12.1",
+    "@react-three/drei": "^9.112.0",
+    "@react-three/fiber": "^8.17.7",
+    "@react-three/postprocessing": "^2.16.2",
+    "@reduxjs/toolkit": "^2.2.7",
+    "cashfree-dropjs": "^1.1.5",
+    "emailjs-com": "^3.2.0",
+    "framer-motion": "^11.5.4",
+    "mongodb": "^6.9.0",
+    "next": "^14.2.13",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-icons": "^5.3.0",
+    "react-intersection-observer": "^9.13.1",
+    "react-player": "^2.16.0",
+    "react-redux": "^9.1.2",
+    "react-slick": "^0.30.2",
+    "redux-persist": "^6.0.0",
+    "sharp": "^0.33.5",
+    "slick-carousel": "^1.8.1",
+    "three": "^0.168.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "css-loader": "^7.1.2",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.8",
+    "postcss": "^8.4.45",
+    "tailwindcss": "^3.4.10",
+    "ts-loader": "^9.5.1"
+  }
+}
